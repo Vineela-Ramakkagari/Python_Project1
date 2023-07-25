@@ -1,18 +1,18 @@
-n = int(input("Enter your marks"))
+x = int(input("Enter your marks"))
 
-if (n<0 or n>100):
+if (x<0 or x>100):
     print("Enter valid marks")
 else:
-    while (n<=100):
-        if (n>=90):
+    while (x<=100):
+        if (x>=90):
             print("Your grade is A+")
-        elif (80 <= n <90):
+        elif (80 <= x <90):
             print("Your grade is A")
-        elif (70 <= n <80):
+        elif (70 <= x <80):
             print("Your grade is B")
-        elif (60 <= n <70):
+        elif (60 <= x <70):
             print("Your grade is C")
-        elif (50 <= n <60):
+        elif (50 <= x <60):
             print("Your grade is D")
         else:
             print("Fail")
